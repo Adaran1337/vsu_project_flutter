@@ -55,7 +55,7 @@ class OnboardingItemWidget extends StatelessWidget {
       child: Column(
         children: <Widget>[
           const SizedBox(
-            height: 400,
+            height: 420,
           ),
           Text(
             text,

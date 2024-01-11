@@ -37,18 +37,18 @@ class RegisterScreenState extends State<RegisterScreen> {
               },
             ),
             const SizedBox(
-              height: 20.0,
+              height: 5.0,
             ),
             EmailComponent(
               onChanged: (value) => _registerUserRequest.email = value,
             ),
             const SizedBox(
-              height: 30.0,
+              height: 20.0,
             ),
             PasswordComponent(
                 onChanged: (value) => _registerUserRequest.password = value),
             const SizedBox(
-              height: 30.0,
+              height: 20.0,
             ),
             ElevatedButton(
               onPressed: _onRegistrationPressed,
